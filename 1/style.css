@@ -1,0 +1,71 @@
+footer>div>div:first-child {
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url("./FONT/mahirbey.jpeg");
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+footer {
+
+    display: flex;
+    padding: 30px 90px;
+
+}
+
+footer>div:last-child {
+    font-family: "Poppins";
+    margin-left: 100px;
+    border-bottom: 2px solid black;
+}
+
+footer>div {
+    border-bottom: 2px solid black;
+}
+
+section {
+    display: flex;
+    margin-top: 60px;
+    font-family: 'Poppins';
+}
+
+
+section>div:first-child {
+    width: 55%;
+    height: auto;
+    border-left: 3px dotted black;
+    padding: 0 10px;
+}
+
+section>div:last-child {
+    width: 40%;
+    height: auto;
+    border-left: 3px dotted black;
+    padding: 0 10px;
+}
+
+section div div h5 {
+
+    margin-top: -15px;
+}
+
+section div div h4 {
+
+    margin-top: 30px;
+}
+
+section div div h3 {
+    color: rgba(0, 0, 255, 0.633);
+
+}
+
+i {
+    font-size: 15px;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}

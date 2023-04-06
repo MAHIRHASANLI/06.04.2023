@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(255, 235, 205, 0.769);
+}
+
+section .white-color {
+    width: 90%;
+    height: 400px;
+    background-color: rgba(86, 76, 76, 0.759);
+    margin: 20px auto;
+    border: 10px solid white;
+    background-image: linear-gradient(to right, rgb(254, 213, 9), rgb(256, 30, 189), rgba(9, 230, 250, 0.741));
+}
+
+section>div>p {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 145px;
+}
